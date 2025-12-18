@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: crimson;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+select,
+input {
+  outline: none;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 10px;
+}
+
+input {
+  text-align: center;
+  padding: 1rem 3rem;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid white;
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+  margin-top: 10px;
+}
