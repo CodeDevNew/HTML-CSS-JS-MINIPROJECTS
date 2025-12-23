@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  margin-top: 20px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.sidebar {
+  background-color: #d75157;
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+img {
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+.main-content {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  transform: rotate(-90deg);
+  margin-left: 3rem;
+  margin-top: 6rem;
+}
+
+.main-title {
+  font-family: "Kumar One Outline", cursive;
+  font-size: 2.8rem;
+}
+
+.main-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
